@@ -1,0 +1,248 @@
+@font-face {
+    font-family: NB;
+    src: url(./font/NBInternationalProBoo.ttf);
+}
+
+@font-face {
+    font-family: RE;
+    src: url(./font/Rejouice-Headline.ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#main{
+    width: 100%;
+}
+
+
+#mousemover{
+    position: fixed;
+    z-index: 9;
+    height: 7.5vw;
+    width: 7.9vw;
+    background-color: #FF5F38;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%,-50%);
+}
+
+#mousemover>h5{
+    font-size: 1.4vw;
+}
+
+#page1{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    background-color: #FF5F38;
+    flex-direction: column;
+}
+
+#page11 {
+    font-family: NB;
+  margin-top: 35vh;
+    position: relative;
+    min-height: 90vh;
+    width: 100%;
+
+}
+
+#page11 h1 {
+    font-size: 25vw;
+    font-family: RE;
+    line-height: 25vw;
+    letter-spacing: 4px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.change {
+    width: 100%;
+    overflow: hidden;
+}
+
+
+
+
+#page1>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+}
+
+#page1-content{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 10;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+nav{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 4vw;
+    font-family: "NB";
+    font-weight: 100;
+}
+
+nav>h3{
+    font-weight: 100;
+}
+
+
+
+
+
+
+
+
+#page1-content>#pageletter>h1{
+    font-family: RE;
+    font-size: 27vw;
+    font-weight: 100;
+    line-height: 27vw;
+    overflow: hidden;
+    
+}
+
+
+
+#page1-content>#pageletter>h1>span{
+    font-family: RE;
+}
+
+
+#page2{
+    height: 100vh;
+    width: 100%;background-color: rgb(255, 255, 255);
+    padding: 0 5vw;
+
+}
+
+
+#pagetop{
+    padding-top: 5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 4vw;
+    
+}
+
+#page2left{
+    font-size: 1vw;
+}
+
+#page2bottom{
+    width: 100%;
+    height: fit-content;
+    border-top: 1px solid #ff0606;
+
+}
+
+#pagebottom>h1>span{
+    font-family: "NB";
+    font-weight: 200;
+    font-size: 4.4vw;
+    line-height: 4.4vw;
+    text-align: center;
+}
+
+
+#page3{
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 3vw;
+}
+
+#page3top{
+    text-align: center;
+}
+
+#page3top>h4{
+    margin-top: 1vw;
+    font-size: 1.2vw;
+    font-weight: 900;
+}
+
+#page3top>h4>span{
+    font-size: 1vw;
+    background-color: black;
+    color: white;
+padding: 2px 5px;
+    border-radius: 25px;
+}
+
+
+#page3top>h2{
+    font-size: 4vw;
+    font-weight: 900;
+}
+
+#Page3elem{
+    margin-top: 5vw;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.box{
+    position: relative;
+    height: 100%;
+    width: 31%;
+}
+
+.box>img{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: all linear 0.5s;
+}
+
+
+
+.box:hover img{
+    opacity: 0;
+}
+
+.box>video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+
+#page4{
+    width: 100%;
+    height: 100vh;
+    background-color: beige;
+}
